@@ -1,0 +1,27 @@
+HW4執行方法:
+gcc matrixPthread.c -o matrixPthread -lpthread
+./matrixPthread input_matrix.txt
+ 
+input_matrix.txt為輸入檔之名稱,可任意更改
+其內容與格式:
+3 3
+
+1 2 1 
+
+2 3 2
+
+1 2 1
+
+
+3 5
+
+1 2 3 4 5
+
+2 3 4 5 6
+
+3 4 5 6 7
+
+
+
+////////////////////////////////////////////////// 
+Matrix multiplication result will be stored in a file called "output_matrix.txt"
